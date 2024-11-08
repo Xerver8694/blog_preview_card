@@ -1,6 +1,7 @@
 body {
     background-color: #F4D04E;
     display: flex;
+    flex-direction: column;
 }
 
 .blog_preview_card {
