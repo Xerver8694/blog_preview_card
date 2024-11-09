@@ -1,9 +1,12 @@
 body {
     background-color: #F4D04E;
-    display: flex;
+    font-family: Figtree, serif;
+}
+
+main {
+    display: grid;
     justify-content: center;
     align-items: center;
-    font-family: Figtree, serif;
 }
 
 .title {
@@ -14,7 +17,6 @@ body {
      border-radius: 5px;
      margin-bottom: 10px;
     text-align: center;
-    display: inline-block;
 }
 
 .blog_preview_card {
@@ -22,20 +24,18 @@ body {
     border-radius: 15px;
     padding: 19px;
     box-shadow: 8px 8px 0px black;
-    max-width: 318px;
-    max-height: 450px;
-    width: 100%;
-    height: 100%;
-    border: 1px solid black;
-    box-shadow: 8px 8px var(--gray-950);
-    display: grid;
-    grid-template-rows: auto auto auto;
+    width: 375px;
+    height: 515px;
+    padding: 24px 24px;
+    border-radius: 20px;
+    border: 1px solid var(black);
+    box-shadow: 8px 8px var(black);
 }
 
 .author_by {
     font-weight: 500;
     display: flex;
     align-items: center;
-    justify-content: centerS;
+    justify-content: center;
     padding: 10px;
 }
