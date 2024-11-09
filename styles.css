@@ -1,7 +1,6 @@
 body {
     background-color: #F4D04E;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Figtree, serif;
@@ -29,8 +28,6 @@ body {
     height: 100%;
     border: 1px solid black;
     box-shadow: 8px 8px var(--gray-950);
-    display: grid;
-    grid-template-rows: auto auto auto;
 }
 
 .author_by {
